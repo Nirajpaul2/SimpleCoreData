@@ -16,6 +16,10 @@
 		82F3D2AA1C5F615400F87CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F3D2A81C5F615400F87CB7 /* LaunchScreen.storyboard */; };
 		82F3D2B51C5F615400F87CB7 /* coreData2DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F3D2B41C5F615400F87CB7 /* coreData2DemoTests.m */; };
 		82F3D2C01C5F615400F87CB7 /* coreData2DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F3D2BF1C5F615400F87CB7 /* coreData2DemoUITests.m */; };
+		82F3D2CF1C5F619300F87CB7 /* WriteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F3D2CE1C5F619300F87CB7 /* WriteData.m */; };
+		82F3D2D11C5F625700F87CB7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F3D2D01C5F625700F87CB7 /* CoreData.framework */; };
+		82F3D2D41C5F7A0100F87CB7 /* UpdateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F3D2D31C5F7A0100F87CB7 /* UpdateVC.m */; };
+		82F3D2D71C5F7E4F00F87CB7 /* checkoutpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F3D2D61C5F7E4F00F87CB7 /* checkoutpage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		82F3D2BB1C5F615400F87CB7 /* coreData2DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreData2DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F3D2BF1C5F615400F87CB7 /* coreData2DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreData2DemoUITests.m; sourceTree = "<group>"; };
 		82F3D2C11C5F615400F87CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F3D2CD1C5F619300F87CB7 /* WriteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteData.h; sourceTree = "<group>"; };
+		82F3D2CE1C5F619300F87CB7 /* WriteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteData.m; sourceTree = "<group>"; };
+		82F3D2D01C5F625700F87CB7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82F3D2D21C5F7A0100F87CB7 /* UpdateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateVC.h; sourceTree = "<group>"; };
+		82F3D2D31C5F7A0100F87CB7 /* UpdateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateVC.m; sourceTree = "<group>"; };
+		82F3D2D51C5F7E4F00F87CB7 /* checkoutpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkoutpage.h; sourceTree = "<group>"; };
+		82F3D2D61C5F7E4F00F87CB7 /* checkoutpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkoutpage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F3D2D11C5F625700F87CB7 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +95,7 @@
 		82F3D28B1C5F615400F87CB7 = {
 			isa = PBXGroup;
 			children = (
+				82F3D2D01C5F625700F87CB7 /* CoreData.framework */,
 				82F3D2961C5F615400F87CB7 /* coreData2Demo */,
 				82F3D2B31C5F615400F87CB7 /* coreData2DemoTests */,
 				82F3D2BE1C5F615400F87CB7 /* coreData2DemoUITests */,
@@ -113,6 +126,12 @@
 				82F3D2AB1C5F615400F87CB7 /* Info.plist */,
 				82F3D2A31C5F615400F87CB7 /* coreData2Demo.xcdatamodeld */,
 				82F3D2971C5F615400F87CB7 /* Supporting Files */,
+				82F3D2CD1C5F619300F87CB7 /* WriteData.h */,
+				82F3D2CE1C5F619300F87CB7 /* WriteData.m */,
+				82F3D2D21C5F7A0100F87CB7 /* UpdateVC.h */,
+				82F3D2D31C5F7A0100F87CB7 /* UpdateVC.m */,
+				82F3D2D51C5F7E4F00F87CB7 /* checkoutpage.h */,
+				82F3D2D61C5F7E4F00F87CB7 /* checkoutpage.m */,
 			);
 			path = coreData2Demo;
 			sourceTree = "<group>";
@@ -210,6 +229,8 @@
 				TargetAttributes = {
 					82F3D2931C5F615400F87CB7 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = UWWHVJV4A5;
+						ProvisioningStyle = Manual;
 					};
 					82F3D2AF1C5F615400F87CB7 = {
 						CreatedOnToolsVersion = 7.1;
@@ -274,8 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				82F3D2A51C5F615400F87CB7 /* coreData2Demo.xcdatamodeld in Sources */,
+				82F3D2D41C5F7A0100F87CB7 /* UpdateVC.m in Sources */,
+				82F3D2D71C5F7E4F00F87CB7 /* checkoutpage.m in Sources */,
 				82F3D29F1C5F615400F87CB7 /* ViewController.m in Sources */,
 				82F3D29C1C5F615400F87CB7 /* AppDelegate.m in Sources */,
+				82F3D2CF1C5F619300F87CB7 /* WriteData.m in Sources */,
 				82F3D2991C5F615400F87CB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +439,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UWWHVJV4A5;
 				INFOPLIST_FILE = coreData2Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Brainium.coreData2Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aquarious.Navigation-Delivery-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a6958114-f6a2-4f21-aba3-04dc8ef09536";
+				PROVISIONING_PROFILE_SPECIFIER = OnwanikDeveloper_ProV2May;
 			};
 			name = Debug;
 		};
@@ -426,10 +455,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UWWHVJV4A5;
 				INFOPLIST_FILE = coreData2Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Brainium.coreData2Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aquarious.Navigation-Delivery-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a6958114-f6a2-4f21-aba3-04dc8ef09536";
+				PROVISIONING_PROFILE_SPECIFIER = OnwanikDeveloper_ProV2May;
 			};
 			name = Release;
 		};
@@ -500,6 +534,7 @@
 				82F3D2C61C5F615400F87CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82F3D2C71C5F615400F87CB7 /* Build configuration list for PBXNativeTarget "coreData2DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +543,7 @@
 				82F3D2C91C5F615400F87CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82F3D2CA1C5F615400F87CB7 /* Build configuration list for PBXNativeTarget "coreData2DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +552,7 @@
 				82F3D2CC1C5F615400F87CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
